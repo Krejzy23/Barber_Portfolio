@@ -5,7 +5,7 @@
   "main": "index.html",
   "name": "swiper-slides-per-view",
   "scripts": {
-    "build":"[my-framework] build --output public",
+    "build":"",
     "start": "serve"
   },
   "tags": [
