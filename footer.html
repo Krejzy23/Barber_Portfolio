@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en,cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="icon" href="./icons/scissors_favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./swiper/swiper-bundle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Barber</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__bottom" data-header>
+            <div class="container">
+
+                <a href="#" class="logo">Barber<span class="span">Eduardo</span></a>
+
+                <nav class="navbar__container" data-navbar>
+                    <ul class="navbar__list">
+
+                        <li class="navbar__item">
+                            <a href="#home" class="navbar__link" data-nav-link>Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#services" class="navbar__link" data-nav-link>Services</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#pricing" class="navbar__link" data-nav-link>Pricing</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#gallery" class="navbar__link" data-nav-link>Gallery</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#appointment" class="navbar__link" data-nav-link>Appointment</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                </button>
+                
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <article>
+            <section class="section hero has-before has-bg-image"id="home"aria-label="home"style="background-image: url('./images/hero-banner.jpg')">
+                <div class="container">
+                    <h1 class="h1 hero-title">Barber & Hair Cutting</h1>
+                    <p class="hero__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eaque necessitatibus blanditiis exercitationem ad, iure cum expedita aliquid corrupti aperiam!
+                    </p>
+                    <a href="#" class="btn has-before"><span class="span">Explore My Services</span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                    </a>
+                    <div class="social__icons">
+                        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="http://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <a href="mailto:ak-webdev@seznam.cz" class="contact__btn header__btn">
+                    <i class="fa-regular fa-paper-plane"></i>
+                    <p> CONTACT - SEND ME AN EMAIL - </p>
+                </a>
+            </section>
+
+            <section class="section service" id="services" aria-label="services">
+                <div class="container">
+                    <img src="" alt="">
+                    <h2 class="h2 section-title text-center">MY SERVICES</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est, inventore?
+                    </p>
+                    <ul class="grid-list">
+                        <li>
+                            <div class="service-card">
+            
+                                <div class="card-icon">
+                                <img src="./icons/scissors.png" alt="">
+                                </div>
+                
+                                <h3 class="h3">
+                                    <div class="card-title">Hair Cutting & Style</div>
+                                </h3>
+                
+                                <p class="card-text">
+                                    Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                
+                                <a href="#appointment" class="card-btn" aria-label="more">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+                
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+            
+                                <div class="card-icon">
+                                <img src="./icons/razor.png" alt="">
+                                </div>
+                
+                                <h3 class="h3">
+                                    <div class="card-title">Shaving</div>
+                                </h3>
+                
+                                <p class="card-text">
+                                    Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                
+                                <a href="#appointment" class="card-btn" aria-label="more">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+            
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+            
+                                <div class="card-icon">
+                                    <img src="./icons/shaving-razor.png" alt="">
+                                </div>
+                
+                                <h3 class="h3">
+                                    <div class="card-title">Ornaments</div>
+                                </h3>
+                
+                                <p class="card-text">
+                                Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                
+                                <a href="#appointment" class="card-btn" aria-label="more">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+            
+                            </div>
+                        </li>
+                        <li>
+                            <div class="service-card">
+            
+                                <div class="card-icon">
+                                <img src="./icons/hair-dye.png" alt="">
+                                </div>
+                
+                                <h3 class="h3">
+                                    <div href="#" class="card-title">Hair Cutting Style</div>
+                                </h3>
+                
+                                <p class="card-text">
+                                Sit amet consectetur adipisci elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                
+                                <a href="#appointment" class="card-btn" aria-label="more">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </a>
+            
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section pricing has-bg-image has-before"id="pricing"aria-label="pricing"style="background-image:url('./images/board_shaving.jpg')">
+                <div class="container">
+
+                    <h2 class="h2 section-title text-center">Awesome Pricing Plan</h2>
+
+                    <p class="section-text text-center">
+                        Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna aliqua suspendisse
+                    </p>
+
+                    <section class="pricing-tab-container">
+
+                        <div class="tab-filter">
+
+                        <li>
+                            <button class="filter-btn active" data-filter-btn="all">
+                            <div class="btn-icon">
+                                <img src="./icons/money-bag.ico" alt="">
+                            </div>
+
+                            <p class="btn-text">All Pricing</p>
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn" data-filter-btn="hair-cut">
+                            <div class="btn-icon">
+                                <img src="./icons/scissors-cutting-hair.ico" alt="">
+                            </div>
+
+                            <p class="btn-text">Hair Cutting</p>
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn" data-filter-btn="shaving">
+                            <div class="btn-icon">
+                                <img src="./icons/razor_black.png" aria-hidden="true"></img>
+                            </div>
+
+                            <p class="btn-text">Shaving</p>
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn" data-filter-btn="ornaments">
+                            <div class="btn-icon">
+                                <img src="./icons/razor-blade.ico" alt="">
+                            </div>
+
+                            <p class="btn-text">Ornaments</p>
+                            </button>
+                        </li>
+
+                        <li>
+                            <button class="filter-btn" data-filter-btn="coloring">
+                            <div class="btn-icon">
+                                <img src="./icons/coloring.ico" alt="">
+                            </div>
+
+                            <p class="btn-text">Coloring</p>
+                            </button>
+                        </li>
+
+                        <!--  PODSLOZKY     -->
+                        <ul class="grid-list">
+            
+                            <li data-filter="shaving">
+                                <div class="pricing-card">
+                
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                    <img src="./images/pricing-2.jpg" width="90" height="90" alt="Shaving & Facial" class="img-cover">
+                                    </figure>
+                
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Shaving & Facial</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                        <div class="time">
+                                            <img src="./icons/working-hours.ico" alt="">
+                                            <p><i>10-20 minutes</i></p>
+                                        </div>    
+                                    </div>
+                                    
+                                    <data class="card-price" value="45">10 €</data>
+                
+                                </div>
+                            </li>
+            
+                            <li data-filter="ornaments">
+                                <div class="pricing-card">
+                
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                    <img src="./images/orn.jpeg" width="90" height="90" alt="ornaments"
+                                        class="img-cover">
+                                    </figure>
+                
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Ornaments</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                        <div class="time">
+                                            <img src="./icons/working-hours.ico" alt="">
+                                            <p><i>10-20 minutes</i></p>
+                                        </div>    
+                                    </div>
+                
+                                    <data class="card-price" value="56">7 €</data>
+                
+                                </div>
+                            </li>
+            
+                            <li data-filter="hair-cut">
+                                <div class="pricing-card">
+                
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                    <img src="./images/pricing-1.jpg" width="90" height="90" alt="Hair cut"
+                                        class="img-cover">
+                                    </figure>
+                
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Hair Cutting & Fitting</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                        <div class="time">
+                                            <img src="./icons/working-hours.ico" alt="">
+                                            <p><i>30-45 minutes</i></p>
+                                        </div>    
+                                    </div>
+                
+                                    <data class="card-price" value="27">25€</data>
+                
+                                </div>
+                            </li>
+                            
+                            <li data-filter="hair-cut">
+                                <div class="pricing-card">
+                
+                                    <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                    <img src="./images/long-hair.jpg" width="90" height="90" alt="Hair cut"
+                                        class="img-cover">
+                                    </figure>
+                
+                                    <div class="wrapper">
+                                        <h3 class="h3 card-title">Long Hair Cutting & Fitting</h3>
+                                        <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                        <div class="time">
+                                            <img src="./icons/working-hours.ico" alt="">
+                                            <p><i>45-60 minutes</i></p>
+                                        </div>    
+                                    </div>
+                
+                                    <data class="card-price" value="27">30€</data>
+                
+                                </div>
+                            </li>
+                            <li data-filter="coloring">
+                            <div class="pricing-card">
+            
+                                <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                                <img src="./images/coloring1.jpeg" width="90" height="90" alt="Meditation & Massage"
+                                    class="img-cover">
+                                </figure>
+            
+                                <div class="wrapper">
+                                <h3 class="h3 card-title">Hair Coloring</h3>
+                                <p class="card-text">Lorem ipsum dolor sit amet.</p>
+                                    <div class="time">
+                                        <img src="./icons/working-hours.ico" alt="">
+                                        <p><i>60-90 minutes</i></p>
+                                    </div>    
+                                </div>
+            
+                                <data class="card-price" value="74">40€</data>
+            
+                            </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!------------------        Gallery       ---------------->
+            <section class="section gallery" id="gallery">
+                <div class="container gallery__container swiper mySwiper">
+                    <div class="gallery__head" >
+                        <h2 class="gallery__title section-text">MY GALLERY</h2>
+                    
+                        <p class="text-center section-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione repudiandae consequuntur, nisi tempora commodi delectus dolores eligendi quae impedit? Facere cum reiciendis laborum officia iure tempora, explicabo error? Non, exercitationem.
+                        </p>
+                    </div>
+
+                    <div class="swiper-wrapper">
+                        <article class="swiper-slide">
+                            <img src="./images/gallery1.jpg">
+                        </article>
+                        <article class="swiper-slide">
+                            <img src="./images/gallery2.jpg">
+                        </article>
+                        <article class="swiper-slide">
+                            <img src="./images/gallery3.jpg">
+                        </article>
+                        <article class="swiper-slide">
+                            <img src="./images/gallery4.jpg">
+                        </article>
+                        <article class="swiper-slide">
+                            <img src="./images/gallery5.jpg">
+                        </article>
+                        <article class="swiper-slide">
+                            <img src="./images/gallery6.jpg">
+                        </article>
+                        <article class="swiper-slide">
+                            <img src="./images/gallery7.jpg">
+                        </article>
+                        <article class="swiper-slide">
+                            <img src="./images/gallery8.jpg">
+                        </article>
+                        <article class="swiper-slide">
+                            <img src="./images/gallery9.jpg">
+                        </article>
+                        <article class="swiper-slide">
+                            <img src="./images/gallery10.jpg">
+                        </article>
+                        <article class="swiper-slide">
+                            <img src="./images/gallery11.jpg">
+                        </article>
+                    </div> 
+                    <div class="swiper-pagination"></div>  
+                </div>
+            </section>
+
+            <section class="section appoin" id="appointment" aria-label="appointment">
+                <div class="container">
+        
+                    <div class="appoin-card">
+        
+                        <figure class="card-banner img-holder" style="--width:250; --height: 774;">
+                          <img src="./images/appoin-banner-1.jpg" width="250" height="774" loading="lazy" alt=""
+                            class="img-cover">
+                        </figure>
+        
+                        <div class="card-content">
+        
+                            <h2 class="h2 section-title">Appointment</h2>
+        
+                            <p class="section-text">
+                                Sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt labore dolore magna 
+                            </p>
+        
+                            <form action="" class="appoin-form">
+        
+                                <div class="input-wrapper">
+                                    <input type="text" name="name" placeholder="Your Full Name" required class="input-field">
+                                    <input type="email" name="email_address"  placeholder="Email Address" required class="input-field">
+                                </div>
+        
+                                <div class="input-wrapper">
+                                    <input type="text" name="phone" placeholder="Phone Number" required class="input-field">
+        
+                                    <select name="category" class="input-field">
+        
+                                        <option value="Select category">Select category</option>
+                                        <option value="Beauty & spa">Cutting & styling</option>
+                                        <option value="Shaving & Facial">Shaving & Facial</option>
+                                        <option value="Hair Color">Hair Color</option>
+                                    </select>
+                                </div>
+                            
+                                <input type="date" name="date" required class="input-field date">
+        
+                                <textarea name="message" placeholder="Write Message" required class="input-field"></textarea>
+        
+                                <button type="submit" class="form-btn">
+                                    <span class="span">Appointment Now</span>
+        
+                                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                                </button>
+                            </form>
+                        </div>
+        
+                        <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+                            <img src="./images/appoin-banner-2.jpg"    width="250" height="774" loading="lazy" alt=""
+                            class="img-cover">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img class="logo__footer" src="./icons/scissors_white.png" alt="" >
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore blanditiis explicabo nulla, nobis eaque ipsum distinctio non voluptate aperiam excepturi.
+                </p>
+            </div>
+            <div class="col">
+                <h3>Office<div class="underline"><span></span></div></h3>
+                <p>Slezská 23</p>
+                <p>Praha, Vinohrady</p>
+                <p>Czech Republic</p>
+                <p class="email-id">eduardo@barber.com</p>
+                <h4>+420 - 123456789</h4>
+            </div>
+            <div class="col">
+                <h3>Links<div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#appointment">Appointment</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter<div class="underline"><span></span></div></h3>
+                <form>
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" placeholder="Enter Your Email" required>
+                    <button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+                </form>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://www.whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
+
